@@ -1,0 +1,59 @@
+@font-face {
+    font-family: rick;
+    src: url(./fonts/get_schwifty.ttf);
+ }
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    margin-top: 20px;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: rick;
+    color:#98fb99;
+}
+#header{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.seta{
+    width: 50px;
+}
+.informacao{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.image{
+    width: 200px;
+    padding-right: 20px;
+    border-radius: 250px;
+    top: 10px;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    width: 550px;
+    border-radius: 250px;
+}
+#body-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 20px;
+    margin: 10px;
+}
+.info{
+    width:330px;
+}
