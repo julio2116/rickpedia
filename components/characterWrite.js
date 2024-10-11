@@ -8,8 +8,8 @@ export default function characterWrite({image, name, status, species, type, gend
             <p class="info"><b>Especie:</b> ${species}</p>
             <p class="info"><b>Tipo:</b> ${type}</p>
             <p class="info"><b>Gênero:</b> ${gender}</p>
-            <p class="info"><b>Gênero:</b> ${originName}</p>
-            <p class="info"><b>Gênero:</b> ${locationName}</p>
+            <p class="info"><b>Origem:</b> ${originName}</p>
+            <p class="info"><b>Visto por último:</b> ${locationName}</p>
         </div>
     </div>
     `
