@@ -5,9 +5,11 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 #header{
     margin-top: 20px;
+    min-width: 35em;
 }
 body{
     background-color: black;
@@ -31,12 +33,12 @@ h1{
 .informacao{
     align-content: center;
     justify-content: center;
+    width: 95%;
 }
 .image{
-    width: 200px;
+    width: 12.5em;
     margin-right: 20px;
     border-radius: 250px;
-    top: 10px;
 }
 
 .card{
@@ -47,21 +49,22 @@ h1{
 }
 #body-text{
     display: grid;
-    grid-template-columns: 580px 580px;
+    grid-template-columns: 36.25em 36.25em;
     justify-content: center;
-    gap: 2vw;
+    gap: 20px;
     padding: 20px;
     margin: 10px;
+    min-width: 33.75em;
 }
 .info{
-    width: 330px;
+    width: 21.25em;
 }
-@media (max-width: 1168px){
+@media screen and (max-width: 72.5em){
     #body-text{
         display: grid;
-        grid-template-columns: 580px;
+        grid-template-columns: 36.25em;
         justify-content: center;
-        gap: 2vw;
+        gap: 20px;
         padding: 20px;
         margin: 10px;
     }
